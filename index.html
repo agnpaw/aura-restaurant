@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Aura Restaurant karaoke & Cocktail Bar | Kraków - kuchnia Turecka, Pizza,
+      Makaron, Steak
+    </title>
+    <meta
+      name="description"
+      content="Aura Restaurant Karaoke & Cocktail Bar w Krakowie – oryginalna kuchnia turecka i inne dania główne przygotowane przez doświadczonych kucharzy. Zapraszamy!"
+    />
+    <meta
+      name="keywords"
+      content="restauracja turecka, kuchnia turecka, restauracja Kraków, Aura, Aura Restaurant, karaoke w Krakowie, Cocktail Bar w Krakowie, steak, pizza"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero-header">
+      <img
+        src="P1082426.jpg"
+        alt="Aura Restaurant karaoke & Cocktail Bar"
+        class="hero-image"
+      />
+      <div class="hero-text">
+        <h1>Aura Restaurant Karaoke & Cocktail Bar</h1>
+      </div>
+    </header>
+
+    <main>
+      <h2>Menu</h2>
+      <div id="language-buttons">
+        <button data-lang="PL" class="lang-btn active">Polski</button>
+        <button data-lang="EN" class="lang-btn">English</button>
+        <button data-lang="TR" class="lang-btn">Türkçe</button>
+        <button data-lang="AR" class="lang-btn">العربية</button>
+      </div>
+
+      <div id="menu"></div>
+        <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+        <script src="script.js"></script>
+ 
+    </main>
+    <footer>
+      <p><strong>Aura Restaurant Karaoke & Cocktail Bar</strong></p>
+      <p>📍 ul. Szpitalna 6, 33-332 Kraków</p>
+      <p>📞 <a href="tel:+48884 177666">+48 884 177 666</a></p>
+      <p>🕒 Poniedziałek – Czwartek 11:00 – 02:00</p>
+      <p>🕒 Piątek - Niedziela 11:00 - 04:00</p>
+
+      <div class="social-links">
+        <a
+          href="https://www.instagram.com/aurarestaurantcocktail/"
+          target="_blank"
+          aria-label="Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/people/Aura-Restaurant-Cocktail-Bar/61581806408253/"
+          target="_blank"
+          aria-label="Facebook"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+    </footer>
+    <div id="cookie-banner" class="cookie-banner">
+      <p>
+        Ta strona korzysta z plików cookies w celu świadczenia usług na
+        najwyższym poziomie. Korzystając ze strony, zgadzasz się na ich użycie.
+        <a href="#" id="show-policy" class="cookie-link">Dowiedz się więcej</a>
+      </p>
+      <button id="accept-cookies">Akceptuję</button>
+    </div>
+
+    <div id="cookie-popup" class="cookie-popup">
+      <div class="cookie-popup-content">
+        <span id="close-popup" class="close-popup">&times;</span>
+        <h3>Polityka cookies</h3>
+        <p>
+          Nasza strona używa plików cookies, aby poprawić jakość korzystania z
+          serwisu, analizować ruch oraz dostosowywać treści do Twoich
+          preferencji.
+        </p>
+        <p>
+          Pliki cookies możesz w każdej chwili wyłączyć w ustawieniach swojej
+          przeglądarki.
+        </p>
+        <button id="close-popup-btn">Zamknij</button>
+      </div>
+    </div>
+  </body>
+</html>
